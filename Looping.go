@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	baseurl := "https://white.lightmetrics.co/v2/tsp/devices?limit=10&offset="
+	baseurl := "https://test.co/v2/devices?limit=10&offset="
 	Offset := []string{"10", "20", "30"}
 	for _, Turl := range Offset {
 		url := baseurl + Turl
@@ -24,7 +24,7 @@ import (
 )
 
 func main() {	  
-	baseurl := "https://AABBCC.com/v2/devices?limit=10&offset="
+	baseurl := "https://test.com/v2/devices?limit=10&offset="
 	method := "GET"
 	Offset := []string{"10", "20", "30"}
 	for _, Turl := range Offset {
